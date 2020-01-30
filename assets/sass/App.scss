@@ -1,0 +1,10 @@
+/* Compilar o sass na pasta css>  sass --watch assets/sass:assets/css */
+//o sass pega o nosso codigo custom.scss(tem quer ser o primeiro a ser chamado para sobrescrever os de baixos). pega o codigo bootstrap .scss e gera um novo codigo .css
+
+
+
+
+@import './custom';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
