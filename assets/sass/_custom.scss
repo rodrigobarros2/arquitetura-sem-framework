@@ -1,0 +1,18 @@
+//como criar uma variável
+$my-color-1: #97349b;
+
+
+//como alterar a cor modo 1
+//adicione uma cor dentro da variavel $theme-colors e poderá chamar no html :ex bg-corQueEuCriei 
+$theme-colors: (
+    "my-color-1": $my-color-1,
+    "my-color-sem-variavel": #0aa
+);
+
+
+//como alterar a cor modo 2
+//inspeciona o elemento no navegador, com a classe que passar lá, coloque-a aqui e atribua uma cor
+.nav-link {
+    color: #fff;
+}
+
