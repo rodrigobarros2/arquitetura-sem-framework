@@ -1,0 +1,4 @@
+//o Sass ele sobrescreve o bootstrap.css e gera um um novo codigo que é o dentro de  /css
+
+@import './custom';
+@import '../../node_modules/bootstrap/scss/bootstrap';
